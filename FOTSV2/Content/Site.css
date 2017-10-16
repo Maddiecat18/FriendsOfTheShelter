@@ -33,10 +33,41 @@ textarea {
 
 .jumbotron {
     background-color: #cccc99;
+    height: 280px;
+    width: auto;
+}
+
+h1.welcome {
+    text-align: center;
+    font-size: 45px;
+}
+
+.lead {
+    font-size: 20px;
+    text-align:justify;
 }
 
 .btn {
     background-color: #330033;
+}
+
+.SNServices {
+    padding-bottom: 35px;
+}
+
+
+h2.texttitle {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+
+p.maintext {
+    text-align: justify;
+}
+
+.iconlinks {
+    padding-bottom: 30px;
 }
 
 .logoColumn {
@@ -49,7 +80,23 @@ textarea {
 
 /*Footer*/
 
-footer {
-    background-color: #cccc99;
+.footer-element {
+    background-color: none;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #330033;
+
    
+}
+
+.footer-title {
+    font-size: 16px;
+    text-align: left;
+    font-family: "Palatino Linotype", Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-link {
+    color: black;
 }
