@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Trebuchet MS';
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -27,6 +28,12 @@ textarea {
 
 .navbar {
     background-color: #330033;
+}
+
+/*Universal*/
+
+p {
+    text-align: justify;
 }
 
 /*Home Page*/
@@ -76,7 +83,38 @@ p.maintext {
   
 }
 
+/*About page*/
 
+h2.header2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p.BoD {
+    font-style: italic;
+}
+
+#Board {
+    background-color: #cccc99;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    margin: 25px;
+    width: 200px;
+}
+
+/*ShelterInfo page*/
+
+div.Shelter {
+    border-bottom-style: double;
+    border-bottom-width: 10px;
+    border-bottom-color: #330033;
+}
+
+h2.shelter-title {
+    font-family: "Palatino Linotype", Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 /*Footer*/
 

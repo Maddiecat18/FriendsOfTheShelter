@@ -22,24 +22,24 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events</a>
                         <ul class="dropdown-menu">
-                            <li>@Html.ActionLink("Upcoming Events", "Add", "Event")</li>
-                            <li>@Html.ActionLink("PetFest", "Edit", "Event")</li>
+                            <li>@Html.ActionLink("Upcoming Events", "UpcomingEvents", "Events")</li>
+                            <li>@Html.ActionLink("PetFest", "PetFest", "Events")</li>
                         </ul>
                     </li>
-                    <li>@Html.ActionLink("Fundraising", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Fundraising", "", "Home")</li>
                     <li>
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved</a>
                         <ul class="dropdown-menu">
-                            <li>@Html.ActionLink("Membership", "Add", "Event")</li>
-                            <li>@Html.ActionLink("Meetings", "Edit", "Event")</li>
-                            <li>@Html.ActionLink("Volunteer", "Edit", "Event")</li>
+                            <li>@Html.ActionLink("Membership", "Membership", "GetInvolved")</li>
+                            <li>@Html.ActionLink("Meetings", "Meetings", "GetInvolved")</li>
+                            <li>@Html.ActionLink("Volunteer", "Volunteer", "GetInvolved")</li>
                         </ul>
                     </li>
-                    <li>@Html.ActionLink("Pets for Adoption", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Pets for Adoption", "Contact", "PetsForAdoption")</li>
                 </ul>
                  </ul>
 

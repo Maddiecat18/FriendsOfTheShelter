@@ -178,8 +178,12 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\EventsController.cs" />
+    <Compile Include="Controllers\FundRaisingController.cs" />
+    <Compile Include="Controllers\GetInvolvedController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PetsForAdoptionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -254,6 +258,13 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\ShelterInfo.cshtml" />
+    <Content Include="Views\GetInvolved\Meetings.cshtml" />
+    <Content Include="Views\GetInvolved\Membership.cshtml" />
+    <Content Include="Views\Events\UpcomingEvents.cshtml" />
+    <Content Include="Views\Events\PetFest.cshtml" />
+    <Content Include="Views\FundRaising\FundRaising.cshtml" />
+    <Content Include="Views\GetInvolved\Volunteer.cshtml" />
+    <Content Include="Views\PetsForAdoption\PetsForAdoption.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
